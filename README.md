@@ -478,9 +478,12 @@ In my web project `mysite`, I utilized `whitenoise` to serve static files when `
 ## Other Issues
 Nginx config has no access of `media` folder in `mysite` directory. Is there any other methods to prevent `403 forbidden error` besides  `chmod 777 /path/to/media`.
 
-The AMAP API on the CONTACT US page encounters loading issues when connected to an internet environment outside of mainland China.
+The AMAP API on the CONTACT US page will not load while using proxy.
 
-TO BE ADDED.
+Day/Night mode? Currently admin can change the color of all front interface through admin-panel.
+
+Local time clock.
+
 ## Feedback
 
 If you have any questions or suggestions, please reach out to me at xkuang4 at wisc dot edu
